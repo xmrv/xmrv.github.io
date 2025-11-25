@@ -67,12 +67,58 @@
       font-size: 14px;
       color: #555;
     }
+      /* Header redesign */
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+      padding: 10px 20px;
+    }
+    .logo {
+      height: 70px;
+      width: auto;
+    }
+    .title-block {
+      text-align: center;
+      flex: 1;
+    }
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 700;
+      color: #003d73;
+    }
+    h2 {
+      margin: 4px 0 0;
+      font-size: 20px;
+      font-weight: 600;
+      color: #005bb5;
+    }
+
+    /* Color scheme update */
+    th {
+      background: #003d73;
+    }
+
+    tr:hover {
+      background: #e8f1ff;
+    }
+
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Manav Veri Tablosu</h1>
+  <div class="header-inner">
+    <img src="assets/logo-left.png" class="logo left" alt="Logo Sol" />
+    <div class="title-block">
+      <h1>BALMUMCU JANDARMA SOSYAL TESİSLERİ</h1>
+      <h2>MANAV MENÜSÜ</h2>
+    </div>
+    <img src="assets/logo-right.png" class="logo right" alt="Logo Sağ" />
+  </div>
 </header>
 
 <div class="table-wrapper">
