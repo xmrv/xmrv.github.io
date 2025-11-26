@@ -8,12 +8,13 @@ import { getFirestore } from "firebase/firestore";
 // --- Firebase Config ---
 // Firebase Console → Project Settings → Web App → SDK Config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MSG_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyCXxKXLSYdS1AViaW9OxGGjFT33zQNi7oQ",
+  authDomain: "bst-menu.firebaseapp.com",
+  projectId: "bst-menu",
+  storageBucket: "bst-menu.firebasestorage.app",
+  messagingSenderId: "626363437068",
+  appId: "1:626363437068:web:13d804573d82e5dc835e29",
+  measurementId: "G-NLQHVVDPH1"
 };
 
 // --- Firebase Başlatma ---
