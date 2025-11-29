@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import AdminDashboard from "./pages/AdminDashboard";
 import AdminMenuPage from "./pages/AdminMenuPage";
 import YeniTabloEkle from "./pages/YeniTabloEkle";
+import EditTable from "./pages/EditTable";
+
 
 export default function AdminApp() {
   return (
@@ -40,8 +42,8 @@ export default function AdminApp() {
           <Route path=":menuId" element={<AdminMenuPage />} />
           <Route path=":menuId/new" element={<YeniTabloEkle />} />
 
-          {/* Düzenleme sayfası — bir sonraki adımda oluşturacağız */}
-          <Route path=":menuId/edit/:tableId" element={<div>Düzenleme sayfası (yakında)</div>} />
+          {/* Düzenleme sayfası */}
+          <Route path=":menuId/edit/:tableId" element={<EditTable />} />
         </Routes>
       </main>
     </div>
